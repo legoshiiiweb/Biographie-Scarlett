@@ -1,0 +1,48 @@
+body{
+	overflow-x:hidden;
+	overflow-y: scroll;
+
+	background-image : url("https://medias.3dvf.com/publish/risepanther/nuit.jpg");
+	background-size:cover;
+	background-position:center;
+	margin: 235px;
+	padding:0;
+
+h1 {
+color: white;
+position:absolute;
+left: 5%;
+font-size: 230%;
+top:5%;
+}
+h2 {
+color: royalblue;
+font-size:170%;
+position:absolute; 
+left:7%;
+top: 17%;
+}
+p {
+color: moccasin;
+position: absolute; 
+left:5%;
+top : 29%;
+font-size:130%;
+ width: 62%;
+}
+img {
+	/*float:right;
+	height:200px;*/
+margin:auto;
+display:flex;
+height : 76%;
+position: absolute; 
+width: 24%; 
+left: 70%;
+top: 11%;
+
+}
+p a {
+color: #fff;
+font-weight: 800;
+}

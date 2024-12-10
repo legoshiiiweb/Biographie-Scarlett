@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@400..700&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Jacquard+24&family=Jersey+15&family=Jersey+15+Charted&family=Micro+5&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Tilt+Neon&family=WindSong:wght@400;500&display=swap');
+body{
+	overflow-x:hidden;
+	overflow-y: hidden;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}	
+h1 {
+color: black;
+position:absolute;
+left: 7%;
+width: 80%;
+top:0%;
+font-size: 276%;
+}
+
+.p1 {
+margin:auto;
+display:flex;
+color: black;
+position:absolute; 
+left: 4%;
+    top: 21%;
+    font-size: 163%;
+    width: 27%;
+}
+
+.p2 {
+text-align:center-right;
+margin:auto;
+display:flex;
+color: black;
+position:absolute; 
+  left: 72%;
+    top: 12%;
+    font-size: 159%;
+    width: 27%;
+}
+
+p a {
+color: #fff;
+font-weight: 800;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0px;
+    top: -12%;
+    bottom: 0;
+    width: 100%;
+}

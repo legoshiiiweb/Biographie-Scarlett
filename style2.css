@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+15&family=Jersey+15+Charted&family=Micro+5&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&display=swap');
+body{
+	overflow-x:hidden;
+	overflow-y: scroll;
+	font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+	background-image : url("./photos/fdmarvel.jpg");
+	background-size:cover;
+	background-position:center;
+	margin: 235px;
+	padding:0;
+}
+h1 {
+color: white;
+margin:auto;
+display:flex;
+position: absolute;
+width: 80%;
+left: 5%;
+top: 7%;
+
+}
+h2 {
+font-size:170%;
+position:absolute; 
+left:8%;
+top: 13%;
+
+}
+p {
+
+margin:auto;
+display:flex;
+height :21%;
+color: lightskyblue;
+position:absolute; 
+left: 3%;
+    top: 29%;
+    font-size: 120%;
+    width: 59%;
+}
+img {
+    margin: auto;
+    display: flex;
+    height: 53%;
+    position: absolute;
+    width: 36%;
+    left: 62%;
+    top: 18%;
+
+}
+p a {
+color:maroon;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+.a2 {
+color:green;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+.a3 {
+color:dimgrey;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+.a4 {
+color:black;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+.a5 {
+color: indigo;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+.a6 {
+color: blue;
+font-weight: 800;
+display: contents;
+text-decoration:underline;
+}
+
+
+
+
+

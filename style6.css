@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400..700&family=Jacquard+24&family=Jersey+15&family=Jersey+15+Charted&family=Micro+5&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Tilt+Neon&display=swap');
+body{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}	
+h1 {
+color: dimgrey;
+position:absolute;
+left: 83%;
+top:0%;
+font-size: 276%;
+}
+
+p {
+margin:auto;
+display:flex;
+height :21%;
+color: snow;
+position:absolute; 
+left: 55%;
+    top: 22%;
+    font-size: 139%;
+    width: 42%;
+}
+img {
+	/*float:right;
+	height:200px;*/
+
+margin:auto;
+display:flex;
+height : 76%;
+position: absolute; 
+width: 24%; 
+left: 4%;
+top: 11%;
+
+}
+p a {
+color: #fff;
+font-weight: 800;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: -10%;
+  bottom:0;
+  width: 100%;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="icon" href="./photos/logothor.png">
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style6.css">
+  <title>Thor</title>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="./photos/video1.mp4" type="video/mp4">
+</video>
+
+	<h1 >Thor</h1>	
+	<table border="0"><tr><td width="70%">
+	<p> Thor Odinson, alias Thor est une divinité et un super-héros évoluant
+	dans l'univers Marvel de la maison d'édition Marvel Comics. Thor est le fils
+	du roi des Asgardiens Odin et de la déesse de la terre Gaea. Il est élevé par
+	sa mère adoptive Frigga, l'épouse d'Odin et aux côtés de Loki, qui avait été
+	adopté par Odin après que le père du géant des glaces de Loki, Laufey, ait été tué au combat.<br>
+    Le personnage de Thor est basé sur son homologue de la mythologie nordique. Son père fait
+	construire le marteau Mjöllnir pour lui. Lorsqu'il le reçoit, il devient le dieu nordique
+	de la foudre et le plus grand guerrier d'Asgard. L'asgardien est connu pour être l'un des
+	membres fondateurs et équipier récurrent des Avengers. Il a été le personnage titre de trois
+	séries régulières ainsi que de séries limitées.<br>
+    Il apparaît dans de nombreux produits dérivés : séries d'animation et jeux vidéo.
+	Au cinéma, il est interprété par Chris Hemsworth dans plusieurs films de l'Univers cinématographique Marvel.<br>
+</p>
+	</td><td width="30%">
+	
+	</td></tr></table>
+
+	<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+</body>
+</html>

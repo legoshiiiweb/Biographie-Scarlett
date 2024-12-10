@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="icon" href="./photos/IMlogo.png">
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style4.css">
+  <title>Iron Man</title>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="./photos/video.mp4" type="video/mp4">
+</video>
+
+	<h1 >Iron Man</h1>	
+	<table border="0"><tr><td width="70%">
+	<p class="p1"> Anthony « Tony » Stark, alias Iron Man aussi dit « l'Homme de fer » en français 
+	est un super-héros évoluant dans l'Univers Marvel de la maison d'édition Marvel Comics.<br>
+	Au début de sa carrière de super-héros, Tony Stark avait pour principale occupation de lutter
+	contre les communistes dans le contexte de la guerre froide, de manière beaucoup plus systématique
+	que les autres personnages de Marvel Comics. Ce cadre historique a progressivement disparu, au profit
+	d'aventures de science-fiction. Le contexte de la série Iron Man a ensuite continué d'évoluer avec les
+	années, le personnage affrontant en majorité des menaces de type technologique.<br>
+	</p>
+	<p class="p2">
+    Le corps d'Iron Man est celui d'un homme normal, sans pouvoir surnaturel ou surhumain, mais rendu surpuissant
+	quand il revêt l'une des nombreuses armures de haute technologie conçues à l'aide des impressionnantes compétences
+	scientifiques de Stark.<br> L'armure, pouvant voler à des vitesses supersoniques, confère à Tony Stark une force et une
+	résistance surhumaines et est équipée de multiples armes, capteurs et systèmes électroniques.<br>
+    Le personnage est adapté au cinéma à partir du film Iron Man (2008), lequel lance l'univers cinématographique Marvel
+	et relance la carrière de son interprète, Robert Downey Jr.</p>
+	</td><td width="30%">
+	
+	</td></tr></table>
+
+	<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+</body>
+</html>

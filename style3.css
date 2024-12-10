@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Jacquard+24&family=Jersey+15&family=Jersey+15+Charted&family=Micro+5&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Elite&family=Tilt+Neon&display=swap');
+body{
+	 font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+	
+h1 {
+color: white;
+position:absolute;
+left: 77%;
+top:2%;
+}
+h2 {
+color:firebrick;
+font-size:170%;
+position:absolute;
+left: 83%;
+top:10%;
+}
+p {
+margin:auto;
+display:flex;
+
+color: moccasin;
+position:absolute; 
+        left: 51%;
+        top: 23%;
+        font-size: 98%;
+
+}
+img {
+	/*float:right;
+	height:200px;*/
+
+margin:auto;
+display:flex;
+height : 76%;
+position: absolute; 
+width: 24%; 
+left: 4%;
+top: 11%;
+
+}
+p a {
+color: #fff;
+font-weight: 800;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: -10%;
+  bottom:0;
+  width: 100%;
+
+}
